@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iranian Club at De Anza - LinkTree</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="isa_logo.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">🌗</button> -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle theme" data-mode="auto">
+        <!-- Auto (system) = monitor -->
+        <svg class="icon icon-auto" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="4" width="18" height="12" rx="2" ry="2"></rect>
+          <line x1="8" y1="20" x2="16" y2="20"></line>
+          <line x1="12" y1="16" x2="12" y2="20"></line>
+        </svg>
+      
+        <!-- Dark = moon -->
+        <svg class="icon icon-dark" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"></path>
+        </svg>
+      
+        <!-- Light = sun -->
+        <svg class="icon icon-light" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1"  x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+      </button>
+      
+    
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile-section">
+            <div class="profile-picture">
+                <img src="isa_logo.jpeg" alt="ISA Iranian Club Logo" id="profile-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <!-- <div class="logo-placeholder">ISA</div> -->
+            </div>
+            <h1 class="profile-name">Iranian Club at De Anza</h1>
+            <p class="profile-bio">Connecting Iranian students at De Anza College</p>
+            <!-- Social Stats - Commented out for now, uncomment when needed -->
+            <!--
+            <div class="social-stats">
+                <span class="stat">
+                    <i class="fas fa-users"></i>
+                    <span id="member-count">150+</span> Members
+                </span>
+                <span class="stat">
+                    <i class="fas fa-calendar"></i>
+                    <span id="event-count">12</span> Events
+                </span>
+            </div>
+            -->
+        </div>
+
+        <!-- Links Section -->
+        <div class="links-section">
+            <div class="links-container" id="links-container">
+                <!-- Links will be dynamically added here -->
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; 2025 Iranian Student Association at De Anza College</p>
+            <p class="footer-subtitle">Stay connected with our community</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

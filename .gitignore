@@ -1,0 +1,35 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Dependencies (if you ever add a build tool)
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs / hosts
+dist/
+build/
+.out/
+.vercel/
+.netlify/
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.*.local
+
+# Misc
+*.swp
