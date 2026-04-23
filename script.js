@@ -28,7 +28,7 @@ const linkTreeConfig = {
             id: "discord",
             title: "Discord",
             description: "Connect with us on Discord",
-            url: "https://discord.gg/4RXC6GnF",
+            url: "https://discord.gg/BPzpEKBchE",
             icon: "fab fa-discord",
             platform: "discord"
         }
